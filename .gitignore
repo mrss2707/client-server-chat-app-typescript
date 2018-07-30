@@ -1,0 +1,4 @@
+server/.tscache/
+server/build/
+server/node_modules/
+*.txt
