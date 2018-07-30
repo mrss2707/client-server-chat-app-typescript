@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=development nodemon ./bin/www",
+    "build": "grunt && node ./bin/www",
+    "start": "nodemon -e ts --exec \"npm run build\""
+  },
+  "author": "Shen",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-ts": "^6.0.0-beta.21",
+    "nodemon": "^1.18.3",
+    "typescript": "^2.9.2"
+  }
+}

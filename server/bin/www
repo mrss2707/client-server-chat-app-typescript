@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+"use strict";
+
+// Function to start project
+var server = require("../build/ChatServer");
+server.ChatServer.Init();
