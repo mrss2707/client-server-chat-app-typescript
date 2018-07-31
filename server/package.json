@@ -12,11 +12,19 @@
   "author": "Shen",
   "license": "ISC",
   "devDependencies": {
+    "@types/mongodb": "^3.1.2",
+    "@types/mongoose": "^5.2.3",
+    "@types/mongoose-paginate": "^5.0.6",
     "grunt": "^1.0.3",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-ts": "^6.0.0-beta.21",
     "nodemon": "^1.18.3",
-    "typescript": "^2.9.2"
+    "typescript": "^3.0.1"
+  },
+  "dependencies": {
+    "mongodb": "^3.1.1",
+    "mongoose": "^5.2.6",
+    "mongoose-paginate": "^5.0.3"
   }
 }

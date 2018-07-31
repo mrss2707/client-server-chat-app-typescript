@@ -3,4 +3,6 @@
 
 // Function to start project
 var server = require("../build/ChatServer");
-server.ChatServer.Init();
+var mainConfig = require("../configs/mainConfig");
+var chatServer = server.ChatServer.Init();
+chatServer.LoadConfig(mainConfig);
